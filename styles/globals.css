@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+	body {
+		@apply text-white overflow-x-hidden;
+	}
+	.title {
+		@apply text-2xl sm:text-4xl font-bold sm:font-semibold;
+	}
+	.description {
+		@apply text-lg leading-8;
+	}
+	.tooltip {
+		clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 60% 80%, 50% 100%, 40% 80%, 0 80%);
+	}
+	.bimg {
+		position: relative;
+	}
+	.bimg::before {
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100vh;
+		box-sizing: border-box;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url(/images/background.jpg);
+		background-position: center center;
+		background-size: cover;
+		z-index: -11;
+	}
 }
