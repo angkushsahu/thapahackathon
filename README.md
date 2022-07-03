@@ -15,9 +15,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This website has been created as an attempt to the hackathon conducted by Thapa Technical.
 This is an educational website where the users can checkout various different courses and choose the one which they find interesting and start learning online.
 
-Visit the website from [here](https://angkush.vercel.app)
+Visit the website from [here](https://dev-stack.vercel.app/)
 
-Take a little glimpse of the website from [here](https://angkush.vercel.app/about#a-little-glimpse)
+Take a little glimpse of the website from [here](https://dev-stack.vercel.app/about#a-little-glimpse)
 
 Visit my portfolio [here](https://angkush.vercel.app)
 
