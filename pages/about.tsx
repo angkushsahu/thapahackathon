@@ -1,6 +1,5 @@
 import { NextPage } from "next";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import BaseLayout from "../components/baseLayout";
 import Meta from "../components/meta";
 
@@ -77,26 +76,15 @@ const About: NextPage = () => {
 						loves to read, you can learn from the documentations offered.
 					</motion.p>
 				</section>
-				<section className="mb-12" id="performance">
-					<motion.h1
-						className="title"
-						variants={titleVariants}
-						initial="hidden"
-						animate="visible"
-					>
-						Performance
-					</motion.h1>
-					<motion.div
-						className="mt-10"
-						variants={descriptionVariants}
-						initial="hidden"
-						animate="visible"
-					>
-						<Image src="/images/performance.png" alt="" width="800" height="212" />
-					</motion.div>
-				</section>
 				<section className="mb-12" id="a-little-glimpse">
 					<h1 className="title text-center">A little glimpse of the website</h1>
+					<iframe
+						src="https://res.cloudinary.com/dvhucdquc/video/upload/v1656858814/hackathon/hackathon_bwbmwv.mp4"
+						frameBorder="0"
+						title="Video tutorial"
+						className="mx-auto mt-10 w-[260px] h-[150px] sm:w-[500px] sm:h-[316px] lg:w-[900px] lg:h-[500px]"
+						allowFullScreen={true}
+					></iframe>
 				</section>
 			</main>
 		</BaseLayout>
