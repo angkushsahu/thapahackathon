@@ -25,7 +25,7 @@ const Footer: FC = () => {
 					Don't forget to drop a star at the repo ! ⭐
 				</span>
 				<a
-					href="/"
+					href="https://github.com/angkushsahu/thapahackathon"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="font-semibold hover:text-blue-300 transition-colors ease-in-out duration-150"
