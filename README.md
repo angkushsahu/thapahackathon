@@ -19,6 +19,6 @@ Visit the website from [here](https://angkush.vercel.app)
 
 Take a little glimpse of the website from [here](https://angkush.vercel.app/about#a-little-glimpse)
 
-Visit my portfolio [here](https://angkush.vercel.app"Portfolio")
+Visit my portfolio [here](https://angkush.vercel.app)
 
-Contact me from [here](https://angkush.vercel.app/contact"Contact")
+Contact me from [here](https://angkush.vercel.app/contact)
