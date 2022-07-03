@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { motion } from "framer-motion";
 
 const componentVariants = {
@@ -16,6 +17,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 			animate="visible"
 			key={router.route}
 		>
+			<Head>
+				<link rel="manifest" href="/site.webmanifest" />
+				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+				<meta name="theme-color" content="#374151" />
+			</Head>
 			<Component {...pageProps} />
 		</motion.div>
 	);

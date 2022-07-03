@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import BaseLayout from "../components/baseLayout";
 import Meta from "../components/meta";
 
@@ -21,7 +22,7 @@ const About: NextPage = () => {
 		<BaseLayout>
 			<Meta title="About - Devstack" />
 			<main className="backImage container mx-auto px-4 py-12 sm:px-12 flex flex-col gap-14">
-				<section className="sm:max-w-[60ch] sm:mr-auto mt-8">
+				<section className="sm:max-w-[60ch] sm:mr-auto mt-8" id="about-website">
 					<motion.h1
 						className="title"
 						variants={titleVariants}
@@ -36,8 +37,8 @@ const About: NextPage = () => {
 						initial="hidden"
 						animate="visible"
 					>
-						This website contains necessary lessons for becoming a full – stack
-						developer inspired by free videos created by Thapa Technical You-tube
+						This installable website contains necessary lessons for becoming a full –
+						stack developer inspired by free videos created by Thapa Technical You-tube
 						channel and official documentation for each individual framework. Visitors
 						can navigate to the courses tab where they will be offered a number of
 						courses to choose from and once the user chooses a particular course, he can
@@ -50,7 +51,7 @@ const About: NextPage = () => {
 						framework.
 					</motion.p>
 				</section>
-				<section className="sm:max-w-[60ch] sm:ml-auto">
+				<section className="sm:max-w-[60ch] sm:ml-auto" id="how-to-use-website">
 					<motion.h1
 						className="title"
 						variants={titleVariants}
@@ -76,7 +77,25 @@ const About: NextPage = () => {
 						loves to read, you can learn from the documentations offered.
 					</motion.p>
 				</section>
-				<section className="mb-12">
+				<section className="mb-12" id="performance">
+					<motion.h1
+						className="title"
+						variants={titleVariants}
+						initial="hidden"
+						animate="visible"
+					>
+						Performance
+					</motion.h1>
+					<motion.div
+						className="mt-10"
+						variants={descriptionVariants}
+						initial="hidden"
+						animate="visible"
+					>
+						<Image src="/images/performance.png" alt="" width="800" height="212" />
+					</motion.div>
+				</section>
+				<section className="mb-12" id="a-little-glimpse">
 					<h1 className="title text-center">A little glimpse of the website</h1>
 				</section>
 			</main>

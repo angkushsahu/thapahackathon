@@ -29,7 +29,7 @@ const CourseList: FC<CourseListInterface> = ({ searchText }) => {
 		} else if (newCourseList.length) {
 			setCourses(newCourseList);
 		}
-	}, [searchText]);
+	}, [searchText, courses]);
 
 	return (
 		<section className="flex flex-wrap items-center justify-evenly gap-8 mb-12">

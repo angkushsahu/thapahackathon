@@ -22,7 +22,7 @@ const Footer: FC = () => {
 		<footer className="bg-gray-700 p-8 text-center">
 			<div className="group relative mx-auto">
 				<span className="absolute left-1/2 bottom-8 -translate-x-1/2 shadow-xl bg-gray-800 py-1 px-4 w-fit rounded scale-0 transition-transform group-hover:scale-100">
-					Don't forget to drop a star at the repo ! ⭐
+					Don&#39;t forget to drop a star at the repo ! ⭐
 				</span>
 				<a
 					href="https://github.com/angkushsahu/thapahackathon"

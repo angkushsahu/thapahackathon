@@ -54,7 +54,8 @@ const Home: NextPage = () => {
 					initial="hidden"
 					animate="visible"
 				>
-					Start your <span className="font-semibold">"FULL STACK WEB DEVELOPMENT"</span>{" "}
+					Start your{" "}
+					<span className="font-semibold">&#34;FULL STACK WEB DEVELOPMENT&#34;</span>{" "}
 					journey with me 🔥. Explore all the necessary courses to start with on this
 					website.
 				</motion.p>
